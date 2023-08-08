@@ -58,3 +58,29 @@ console.log(bulanMerdeka);
 
 let tahunMerdeka = arrayMerdeka[2];
 console.log(tahunMerdeka);
+
+
+// Convert string to number 
+
+let nomor =  parseInt("123");
+console.log(nomor);
+
+// Convert number to string
+
+let contohString = 1234567;
+contohString.toString();
+
+console.log(typeof(contohString));
+
+// waktu
+
+let waktu = new Date();
+
+console.log(waktu.getFullYear());
+console.log(waktu.getMonth());
+console.log(waktu.getDate());
+console.log(waktu.getDay());
+console.log(waktu.getHours());
+console.log(waktu.getMinutes());
+console.log(waktu.getSeconds());
+console.log(waktu.getMilliseconds());
