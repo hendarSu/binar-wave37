@@ -43,3 +43,18 @@ console.log(text.length);
 
 let negara = "Indonesia Merdeka";
 console.log(negara.slice(0, 9));
+
+/**
+ * split() adalah Membelah atau memisahkan sebuah string ke dalam beberapa array yang berisi substring.
+ */
+
+let merdeka = "17 Agustus 1945";
+const arrayMerdeka = merdeka.split(" ");
+let tanggalMerdeka = arrayMerdeka[0];
+console.log(tanggalMerdeka);
+
+let bulanMerdeka = arrayMerdeka[1];
+console.log(bulanMerdeka);
+
+let tahunMerdeka = arrayMerdeka[2];
+console.log(tahunMerdeka);
