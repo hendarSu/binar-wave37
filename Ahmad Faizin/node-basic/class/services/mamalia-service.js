@@ -1,5 +1,12 @@
+const Mamalia = require('../model/animal')
+
 class MamaliaService {
-    constructor (mamaliaModel) {
-        this.mamaliaModel = new Mamalia
+    constructor () {
+        this.mamaliaModel = new Mamalia();
+    }
+    getSuara() {
+        this.mamaliaModel.suaraAnimal();
     }
 }
+
+module.exports = MamaliaService

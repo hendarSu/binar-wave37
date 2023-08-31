@@ -4,7 +4,12 @@ class Animal {
         this.type = type;
         this.habitat = habitat
     }
+    suaraAnimal() {
+        console.log("Roar");
+    }
 }
 class Mamalia extends Animal {
-    
+
 }
+
+module.exports = Animal
